@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>solid-router hash link state repro</title>
+    <style>
+      a { margin-right: 1em; }
+      a[aria-current="page"] { font-weight: bold; background: yellow; }
+      a[data-active] { outline: 2px solid green; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
